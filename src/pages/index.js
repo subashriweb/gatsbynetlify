@@ -8,11 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Product Engineering Intern at Servify</h1>
+    <h3>#100DaysOfProductEngineering at servify</h3>
+    <p>Welcome to my new  site.</p>
+    <p>My name is subashri sankar . I am from tamilnadu . I have done my Bachelor Of Engineering (ECE) at Tagore Engineering College.</p>
+    <p>Acquiring #missingskill from Samal Gorai sir</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/suba.jpg"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
@@ -20,8 +22,8 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+      <Link to="/page-2/">My second page</Link> <br />
+      
     </p>
   </Layout>
 )
